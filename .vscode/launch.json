@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Excel Desktop",
+      "type": "msedge",
+      "request": "attach",
+      "port": 9222,
+      "webRoot": "${workspaceFolder}",
+      "timeout": 45000,
+      "urlFilter": "https://localhost:3000/*",
+      "trace": true
+    }
+  ]
+}
